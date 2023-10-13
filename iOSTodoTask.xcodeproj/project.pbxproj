@@ -9,21 +9,60 @@
 /* Begin PBXBuildFile section */
 		FB4F99322AD9BE8900B6CA7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99312AD9BE8900B6CA7F /* AppDelegate.swift */; };
 		FB4F99342AD9BE8900B6CA7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99332AD9BE8900B6CA7F /* SceneDelegate.swift */; };
-		FB4F99362AD9BE8900B6CA7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99352AD9BE8900B6CA7F /* ViewController.swift */; };
 		FB4F99392AD9BE8900B6CA7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4F99372AD9BE8900B6CA7F /* Main.storyboard */; };
 		FB4F993B2AD9BE8A00B6CA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4F993A2AD9BE8A00B6CA7F /* Assets.xcassets */; };
 		FB4F993E2AD9BE8A00B6CA7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4F993C2AD9BE8A00B6CA7F /* LaunchScreen.storyboard */; };
+		FB4F99462AD9BF3200B6CA7F /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99452AD9BF3200B6CA7F /* CategoryTableViewController.swift */; };
+		FB4F99482AD9BF7400B6CA7F /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99472AD9BF7400B6CA7F /* CategoryTableViewCell.swift */; };
+		FB4F99512AD9C4AB00B6CA7F /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99502AD9C4AB00B6CA7F /* CategoryModel.swift */; };
+		FB4F99532AD9C4E400B6CA7F /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99522AD9C4E400B6CA7F /* ItemModel.swift */; };
+		FB4F99562AD9C54000B6CA7F /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FB4F99552AD9C54000B6CA7F /* RxSwift */; };
+		FB4F99592AD9C55C00B6CA7F /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99582AD9C55C00B6CA7F /* CategoryViewModel.swift */; };
+		FB4F995C2AD9C57F00B6CA7F /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F995B2AD9C57F00B6CA7F /* ItemViewModel.swift */; };
+		FB4F99602AD9C5F300B6CA7F /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F995F2AD9C5F300B6CA7F /* ItemTableViewCell.swift */; };
+		FB4F99622AD9C60F00B6CA7F /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99612AD9C60F00B6CA7F /* ItemTableViewController.swift */; };
+		FB4F99642AD9CF6900B6CA7F /* CategoryDaoRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99632AD9CF6900B6CA7F /* CategoryDaoRepo.swift */; };
+		FB4F99712AD9D46B00B6CA7F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99662AD9D46A00B6CA7F /* FMDatabasePool.m */; };
+		FB4F99722AD9D46B00B6CA7F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99682AD9D46B00B6CA7F /* FMResultSet.m */; };
+		FB4F99732AD9D46B00B6CA7F /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99692AD9D46B00B6CA7F /* FMDatabaseQueue.m */; };
+		FB4F99742AD9D46B00B6CA7F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4F996E2AD9D46B00B6CA7F /* FMDatabaseAdditions.m */; };
+		FB4F99752AD9D46B00B6CA7F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4F99702AD9D46B00B6CA7F /* FMDatabase.m */; };
+		FB4F997D2AD9D73100B6CA7F /* todo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FB4F997C2AD9D73100B6CA7F /* todo.sqlite */; };
+		FB4F997F2AD9E5B400B6CA7F /* ItemDaoRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F997E2AD9E5B400B6CA7F /* ItemDaoRepo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB4F992E2AD9BE8900B6CA7F /* iOSTodoTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTodoTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4F99312AD9BE8900B6CA7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB4F99332AD9BE8900B6CA7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB4F99352AD9BE8900B6CA7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB4F99382AD9BE8900B6CA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB4F993A2AD9BE8A00B6CA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB4F993D2AD9BE8A00B6CA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB4F993F2AD9BE8A00B6CA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4F99452AD9BF3200B6CA7F /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		FB4F99472AD9BF7400B6CA7F /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		FB4F99502AD9C4AB00B6CA7F /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		FB4F99522AD9C4E400B6CA7F /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		FB4F99582AD9C55C00B6CA7F /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		FB4F995B2AD9C57F00B6CA7F /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		FB4F995F2AD9C5F300B6CA7F /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		FB4F99612AD9C60F00B6CA7F /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
+		FB4F99632AD9CF6900B6CA7F /* CategoryDaoRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDaoRepo.swift; sourceTree = "<group>"; };
+		FB4F99652AD9D46A00B6CA7F /* iOSTodoTask-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSTodoTask-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB4F99662AD9D46A00B6CA7F /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		FB4F99672AD9D46B00B6CA7F /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		FB4F99682AD9D46B00B6CA7F /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		FB4F99692AD9D46B00B6CA7F /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		FB4F996A2AD9D46B00B6CA7F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		FB4F996B2AD9D46B00B6CA7F /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		FB4F996C2AD9D46B00B6CA7F /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		FB4F996D2AD9D46B00B6CA7F /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		FB4F996E2AD9D46B00B6CA7F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		FB4F996F2AD9D46B00B6CA7F /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		FB4F99702AD9D46B00B6CA7F /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		FB4F997B2AD9D54900B6CA7F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FB4F997C2AD9D73100B6CA7F /* todo.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = todo.sqlite; sourceTree = "<group>"; };
+		FB4F997E2AD9E5B400B6CA7F /* ItemDaoRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDaoRepo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4F99562AD9C54000B6CA7F /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +82,7 @@
 			children = (
 				FB4F99302AD9BE8900B6CA7F /* iOSTodoTask */,
 				FB4F992F2AD9BE8900B6CA7F /* Products */,
+				FB4F997A2AD9D54900B6CA7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +97,125 @@
 		FB4F99302AD9BE8900B6CA7F /* iOSTodoTask */ = {
 			isa = PBXGroup;
 			children = (
+				FB4F994D2AD9C48000B6CA7F /* Model */,
+				FB4F994B2AD9C3F500B6CA7F /* Repository */,
+				FB4F994A2AD9C3EC00B6CA7F /* ViewModel */,
+				FB4F99492AD9C3E600B6CA7F /* View */,
 				FB4F99312AD9BE8900B6CA7F /* AppDelegate.swift */,
 				FB4F99332AD9BE8900B6CA7F /* SceneDelegate.swift */,
-				FB4F99352AD9BE8900B6CA7F /* ViewController.swift */,
 				FB4F99372AD9BE8900B6CA7F /* Main.storyboard */,
 				FB4F993A2AD9BE8A00B6CA7F /* Assets.xcassets */,
 				FB4F993C2AD9BE8A00B6CA7F /* LaunchScreen.storyboard */,
 				FB4F993F2AD9BE8A00B6CA7F /* Info.plist */,
+				FB4F996C2AD9D46B00B6CA7F /* FMDatabase.h */,
+				FB4F99702AD9D46B00B6CA7F /* FMDatabase.m */,
+				FB4F996A2AD9D46B00B6CA7F /* FMDatabaseAdditions.h */,
+				FB4F996E2AD9D46B00B6CA7F /* FMDatabaseAdditions.m */,
+				FB4F996D2AD9D46B00B6CA7F /* FMDatabasePool.h */,
+				FB4F99662AD9D46A00B6CA7F /* FMDatabasePool.m */,
+				FB4F996B2AD9D46B00B6CA7F /* FMDatabaseQueue.h */,
+				FB4F99692AD9D46B00B6CA7F /* FMDatabaseQueue.m */,
+				FB4F99672AD9D46B00B6CA7F /* FMDB.h */,
+				FB4F996F2AD9D46B00B6CA7F /* FMResultSet.h */,
+				FB4F99682AD9D46B00B6CA7F /* FMResultSet.m */,
+				FB4F99652AD9D46A00B6CA7F /* iOSTodoTask-Bridging-Header.h */,
+				FB4F997C2AD9D73100B6CA7F /* todo.sqlite */,
 			);
 			path = iOSTodoTask;
+			sourceTree = "<group>";
+		};
+		FB4F99492AD9C3E600B6CA7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F995E2AD9C5A300B6CA7F /* ItemView */,
+				FB4F995D2AD9C59800B6CA7F /* CategoryView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB4F994A2AD9C3EC00B6CA7F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F995A2AD9C57300B6CA7F /* ItemViewModel */,
+				FB4F99572AD9C54A00B6CA7F /* CategoryViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FB4F994B2AD9C3F500B6CA7F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F99632AD9CF6900B6CA7F /* CategoryDaoRepo.swift */,
+				FB4F997E2AD9E5B400B6CA7F /* ItemDaoRepo.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		FB4F994D2AD9C48000B6CA7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F994F2AD9C49400B6CA7F /* ItemModel */,
+				FB4F994E2AD9C48D00B6CA7F /* CategoryModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB4F994E2AD9C48D00B6CA7F /* CategoryModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F99502AD9C4AB00B6CA7F /* CategoryModel.swift */,
+			);
+			path = CategoryModel;
+			sourceTree = "<group>";
+		};
+		FB4F994F2AD9C49400B6CA7F /* ItemModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F99522AD9C4E400B6CA7F /* ItemModel.swift */,
+			);
+			path = ItemModel;
+			sourceTree = "<group>";
+		};
+		FB4F99572AD9C54A00B6CA7F /* CategoryViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F99582AD9C55C00B6CA7F /* CategoryViewModel.swift */,
+			);
+			path = CategoryViewModel;
+			sourceTree = "<group>";
+		};
+		FB4F995A2AD9C57300B6CA7F /* ItemViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F995B2AD9C57F00B6CA7F /* ItemViewModel.swift */,
+			);
+			path = ItemViewModel;
+			sourceTree = "<group>";
+		};
+		FB4F995D2AD9C59800B6CA7F /* CategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F99472AD9BF7400B6CA7F /* CategoryTableViewCell.swift */,
+				FB4F99452AD9BF3200B6CA7F /* CategoryTableViewController.swift */,
+			);
+			path = CategoryView;
+			sourceTree = "<group>";
+		};
+		FB4F995E2AD9C5A300B6CA7F /* ItemView */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F99612AD9C60F00B6CA7F /* ItemTableViewController.swift */,
+				FB4F995F2AD9C5F300B6CA7F /* ItemTableViewCell.swift */,
+			);
+			path = ItemView;
+			sourceTree = "<group>";
+		};
+		FB4F997A2AD9D54900B6CA7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F997B2AD9D54900B6CA7F /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +234,9 @@
 			dependencies = (
 			);
 			name = iOSTodoTask;
+			packageProductDependencies = (
+				FB4F99552AD9C54000B6CA7F /* RxSwift */,
+			);
 			productName = iOSTodoTask;
 			productReference = FB4F992E2AD9BE8900B6CA7F /* iOSTodoTask.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +253,7 @@
 				TargetAttributes = {
 					FB4F992D2AD9BE8900B6CA7F = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -111,6 +266,9 @@
 				Base,
 			);
 			mainGroup = FB4F99252AD9BE8900B6CA7F;
+			packageReferences = (
+				FB4F99542AD9C54000B6CA7F /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = FB4F992F2AD9BE8900B6CA7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB4F993E2AD9BE8A00B6CA7F /* LaunchScreen.storyboard in Resources */,
+				FB4F997D2AD9D73100B6CA7F /* todo.sqlite in Resources */,
 				FB4F993B2AD9BE8A00B6CA7F /* Assets.xcassets in Resources */,
 				FB4F99392AD9BE8900B6CA7F /* Main.storyboard in Resources */,
 			);
@@ -138,9 +297,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4F99362AD9BE8900B6CA7F /* ViewController.swift in Sources */,
+				FB4F99642AD9CF6900B6CA7F /* CategoryDaoRepo.swift in Sources */,
+				FB4F99712AD9D46B00B6CA7F /* FMDatabasePool.m in Sources */,
+				FB4F99622AD9C60F00B6CA7F /* ItemTableViewController.swift in Sources */,
+				FB4F99732AD9D46B00B6CA7F /* FMDatabaseQueue.m in Sources */,
+				FB4F997F2AD9E5B400B6CA7F /* ItemDaoRepo.swift in Sources */,
+				FB4F99592AD9C55C00B6CA7F /* CategoryViewModel.swift in Sources */,
+				FB4F99602AD9C5F300B6CA7F /* ItemTableViewCell.swift in Sources */,
+				FB4F995C2AD9C57F00B6CA7F /* ItemViewModel.swift in Sources */,
+				FB4F99722AD9D46B00B6CA7F /* FMResultSet.m in Sources */,
+				FB4F99532AD9C4E400B6CA7F /* ItemModel.swift in Sources */,
 				FB4F99322AD9BE8900B6CA7F /* AppDelegate.swift in Sources */,
 				FB4F99342AD9BE8900B6CA7F /* SceneDelegate.swift in Sources */,
+				FB4F99462AD9BF3200B6CA7F /* CategoryTableViewController.swift in Sources */,
+				FB4F99512AD9C4AB00B6CA7F /* CategoryModel.swift in Sources */,
+				FB4F99482AD9BF7400B6CA7F /* CategoryTableViewCell.swift in Sources */,
+				FB4F99742AD9D46B00B6CA7F /* FMDatabaseAdditions.m in Sources */,
+				FB4F99752AD9D46B00B6CA7F /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A94ZNMJSTF;
@@ -303,6 +477,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.muratala.iOSTodoTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSTodoTask/iOSTodoTask-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A94ZNMJSTF;
@@ -331,6 +508,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.muratala.iOSTodoTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSTodoTask/iOSTodoTask-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -358,6 +536,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB4F99542AD9C54000B6CA7F /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB4F99552AD9C54000B6CA7F /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB4F99542AD9C54000B6CA7F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB4F99262AD9BE8900B6CA7F /* Project object */;
 }
